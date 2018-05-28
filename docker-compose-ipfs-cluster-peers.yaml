@@ -1,4 +1,4 @@
-version: '3'
+version: '2'
 services:
   peer-1:
     image: ipfs/ipfs-cluster:v0.3.0

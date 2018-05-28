@@ -24,7 +24,7 @@ IPFS cluster setup
   ```
 
 ```bash
-docker-compose -f docker-compose-ipfs-cluster.yaml up
+docker-compose -f docker-compose-ipfs-cluster-peers.yaml up
 
 //connect peer1 to peer2
 docker exec ipfs_peer-1_1 ipfs-cluster-ctl peers add /ip4/172.20.0.2/tcp/9096/ipfs/QmbuWdsRWhasARr9Tm8aoAESahcHPEqYN1gT28Us2Jdssx
